@@ -40,9 +40,9 @@ const Appsidebar = () => {
   return (
     <div>
       
-      <Sidebar collapsible='icon'  >
+      <Sidebar collapsible='icon'   >
 
-<SidebarHeader >
+<SidebarHeader className='mt-2' >
 <SidebarMenu>
   <SidebarMenuItem>
     <SidebarMenuButton asChild>

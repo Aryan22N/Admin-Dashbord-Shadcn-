@@ -1,10 +1,18 @@
-import { Button } from "@/components/ui/button"
-import { Ghost } from "lucide-react"
+import Appbarchart from "@/components/Appbarchart";
 
 export default function Home() {
   return (
-    <div className="h-screen items-center justify-center flex">
-      <Button className="rounded-full" size="lg">Click me</Button>
+    <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-4 ">
+      <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl-col-span-1 2xl:col-span-2 ">
+        <Appbarchart />
+      </div>
+      <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
+      <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
+      <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
+      <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 ">Test</div>
+      <div className="bg-primary-foreground p-4 rounded-lg ">Test</div>
+
+      
     </div>
   )
 }
